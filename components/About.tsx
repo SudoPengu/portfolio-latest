@@ -70,10 +70,10 @@ function About({ }: Props) {
             <div className='py-2'>
                 <h1 className='text-white text-xl underline underline-offset-2 font-bold'>Socials</h1>
                 <div className='grid grid-cols-4 gap-4 justify-items-center py-9'>
-                    <a className='text-white text-3xl hover:text-lime-600 transition ease-in' href="https://twitter.com/home"><BsTwitter /></a>
-                    <a className='text-white text-3xl hover:text-lime-600 transition ease-in' href="https://github.com/cjgamos"><BsGithub /></a>
-                    <a className='text-white text-3xl hover:text-lime-600 transition ease-in' href="https://www.linkedin.com/in/carl-justin-gamos-b10688205/"><BsLinkedin /></a>
-                    <a className='text-white text-3xl hover:text-lime-600 transition ease-in' href="https://www.instagram.com/cjgamos_/"><BsInstagram /></a>
+                    <a className='text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://twitter.com/home"><BsTwitter /></a>
+                    <a className='text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://github.com/cjgamos"><BsGithub /></a>
+                    <a className='text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carl-justin-gamos-b10688205/"><BsLinkedin /></a>
+                    <a className='text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://www.instagram.com/cjgamos_/"><BsInstagram /></a>
                 </div>
             </div>
 

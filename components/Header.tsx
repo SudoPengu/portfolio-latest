@@ -9,10 +9,10 @@ function Body({ }: Props) {
         <div className='text-white'>
 
             {/* Header*/}
-            <div className='lg:justify-center md:flex px-5 pt-5'>
+            <div className='lg:justify-center md:flex sm:flex px-5 pt-5'>
 
                 {/* Name and Sub */}
-                <div className='pt-7 lg:w-[31rem] md:w-[29rem] '>
+                <div className='pt-7 lg:w-[31rem] md:w-[29rem] sm:w-[25rem]'>
                     <h1 className='text-3xl'>Carl Justin <span className='text-lime-600'>Gamos</span></h1>
                     <h4>Passionate Geek ( Developer / Programmer / Cyber Security ) </h4>
                 </div>

@@ -43,8 +43,8 @@ const Header = (props: Props) => {
             </div>
             <div className='hidden sm:block space-x-8'>
                 <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"/about"}>About</Link>
-                <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"/bio"}>Projects</Link>
-                <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"/portfolio"}>CV</Link>
+                <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"/projects"}>Projects</Link>
+                <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"https://drive.google.com/file/d/1MILaBoLU_JT2vTF1xCYY1rY1DwzaSxV2/preview"} target="_blank" rel="noreferrer">CV</Link>
                 <button className='transition ease-in-out hover:text-lime-500 hover:underline'><a href="https://github.com/cjgamos" target="_blank" rel="noreferrer"><BsGithub className='inline-block ' /> Github</a></button>
                 {/* <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"https://github.com/cjgamos"} target="_blank" rel="noreferrer">Github</Link> */}
             </div>
