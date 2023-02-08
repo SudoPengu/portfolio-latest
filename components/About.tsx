@@ -38,7 +38,7 @@ function About({ }: Props) {
                     <span className='font-bold pr-3'>2000</span>Born in Pampanga, Philippines.
                 </div>
                 <div className='text-white inline-flex'>
-                    <span className='font-bold pr-3'>2019</span> Took Bachelor's of Science in Computer Science on Don Honorio Venturia State University, Bacolor Pampanga
+                    <span className='font-bold pr-3'>2019</span> Taking Bachelor's of Science in Computer Science on Don Honorio Venturia State University, Bacolor Pampanga
                 </div>
                 <div className='text-white inline-flex'>
                     <span className='font-bold pr-3'>pre--</span> Searching for Internship / OJT
