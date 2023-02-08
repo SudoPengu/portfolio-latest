@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../Images/profile.jpg'
+import Profile from '@/Images/profile.jpg'
 import Image from 'next/image'
 
 type Props = {}
