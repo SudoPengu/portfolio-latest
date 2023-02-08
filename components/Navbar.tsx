@@ -8,17 +8,24 @@ const Header = (props: Props) => {
 
     const [isOpen, setIsOpen] = useState(false)
     const [isFocused, setIsFocused] = useState(false)
-    const ref = useRef()
+    const ref = useRef(null)
 
     const openMenu = () => {
         setIsOpen(!isOpen)
         setIsFocused(!isFocused)
-        console.log("Menu Open")
+        console.log(isFocused)
+    }
+
+    const closeMenu = () => {
+        setIsOpen(isOpen)
+        setIsFocused(isFocused)
+        console.log(isFocused)
     }
 
     useEffect(() => {
+
         document.addEventListener("mousedown", () => {
-            if (isOpen && ref.current && !isFocused) {
+            if (isOpen && ref.current) {
                 setIsOpen(false)
                 setIsFocused(false)
             }
@@ -27,7 +34,7 @@ const Header = (props: Props) => {
         return () => {
             // Cleanup the event listener
             document.removeEventListener("mousedown", () => {
-                if (isOpen && ref.current && !isFocused) {
+                if (isOpen && !ref.current) {
                     setIsOpen(false)
                     setIsFocused(false)
                 }
