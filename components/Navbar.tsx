@@ -17,20 +17,21 @@ const Header = (props: Props) => {
     }
 
     useEffect(() => {
-        const checkIfClickedOutside = (e: React.ChangeEvent<HTMLSelectElement>) => {
-            // If the menu is open and the clicked target is not within the menu,
-            // then close the menu
-            if (isOpen && ref.current && !ref.current.contains(e.target)) {
+        document.addEventListener("mousedown", () => {
+            if (isOpen && ref.current && !isFocused) {
                 setIsOpen(false)
                 setIsFocused(false)
             }
-        }
-
-        document.addEventListener("mousedown", checkIfClickedOutside)
+        })
 
         return () => {
             // Cleanup the event listener
-            document.removeEventListener("mousedown", checkIfClickedOutside)
+            document.removeEventListener("mousedown", () => {
+                if (isOpen && ref.current && !isFocused) {
+                    setIsOpen(false)
+                    setIsFocused(false)
+                }
+            })
         }
 
     }, [isOpen])
