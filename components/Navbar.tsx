@@ -22,6 +22,8 @@ const Header = (props: Props) => {
         console.log(isFocused)
     }
 
+
+    // Still not Working
     useEffect(() => {
 
         document.addEventListener("mousedown", () => {

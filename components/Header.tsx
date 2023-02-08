@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '@/Images/profile.jpg'
+import Picture from "@/Images/carl-gamos.jpg"
 import Image from 'next/image'
 
 type Props = {}
@@ -19,7 +19,7 @@ function Body({ }: Props) {
 
                 {/* Image */}
                 <div className='flex py-5 text-center justify-center'>
-                    <Image className='rounded-full border-2 border-lime-700' width={100} src={Profile} alt="C.J Gamos" />
+                    <Image className='rounded-full border-2 border-lime-700' width={100} src={Picture} alt="C.J Gamos" />
                 </div>
             </div>
         </div >
