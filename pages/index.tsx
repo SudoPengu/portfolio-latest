@@ -18,10 +18,12 @@ export default function Home() {
         {/* Navbar */}
         <Navbar />
 
-        {/* Header */}
-        <Header />
+
 
         <div className='sm:w-[35rem] md:w-[38rem] lg:w-[40rem] m-auto'>
+          {/* Header */}
+          <Header />
+
           {/* Body */}
           <About />
 
