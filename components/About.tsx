@@ -32,8 +32,8 @@ function About({ }: Props) {
             </div>
 
             {/* Bio */}
-            <div className='py-2'>
-                <h1 className='text-white text-xl underline pb-2 underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Bio</h1>
+            <div className='pt-2'>
+                <h1 className='text-white text-xl underline pb-5 underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Bio</h1>
                 <div className='text-white inline-flex'>
                     <span className='font-bold pr-3'>2000</span>Born in Pampanga, Philippines.
                 </div>

@@ -40,9 +40,6 @@ export default function Home() {
             <About />
           </motion.div>
 
-
-          {/* Footer */}
-          <Footer />
         </div>
 
       </main>

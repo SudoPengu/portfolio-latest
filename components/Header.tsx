@@ -13,7 +13,7 @@ function Body({ }: Props) {
             "Hi I'm C.J",
             "An indie developer based in Philippines",
             "<I Love Coding/>",
-            "I-Like-Coffe"
+            "I-Like-Coffe-Too"
         ],
         loop: true,
         delaySpeed: 2000,
