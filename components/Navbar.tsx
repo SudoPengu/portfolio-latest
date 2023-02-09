@@ -13,38 +13,25 @@ const Header = (props: Props) => {
     const openMenu = () => {
         setIsOpen(!isOpen)
         setIsFocused(!isFocused)
-        console.log(isFocused)
     }
 
-    const closeMenu = () => {
-        setIsOpen(isOpen)
-        setIsFocused(isFocused)
-        console.log(isFocused)
-    }
+    function useOutsideAlerter(ref: any) {
+        useEffect(() => {
 
-
-    // Still not Working
-    useEffect(() => {
-
-        document.addEventListener("mousedown", () => {
-            if (isOpen && ref.current) {
-                setIsOpen(false)
-                setIsFocused(false)
-            }
-        })
-
-        return () => {
-            // Cleanup the event listener
-            document.removeEventListener("mousedown", () => {
-                if (isOpen && !ref.current) {
-                    setIsOpen(false)
-                    setIsFocused(false)
+            // Function for click event
+            function handleOutsideClick(event: any) {
+                if (ref.current && !ref.current.contains(event.target)) {
+                    setIsFocused(isFocused)
+                    setIsOpen(isOpen)
                 }
-            })
-        }
+            }
+            // Adding click event listener
+            document.addEventListener("click", handleOutsideClick);
+            return () => document.removeEventListener("click", handleOutsideClick);
+        }, [ref]);
+    }
 
-    }, [isOpen])
-
+    useOutsideAlerter(ref);
 
     return (
         <div className='sticky top-0 backdrop-blur-sm bg-[transparent] text-[#FFFF] py-4 px-10 h-14 flex justify-between sm:justify-center'>
@@ -61,7 +48,7 @@ const Header = (props: Props) => {
 
 
             {/* Hamburger Menu */}
-            <div className='sm:hidden' ref={ref}>
+            <div className='sm:hidden' ref={ref}  >
                 <button onClick={() => openMenu()} className={`${isFocused ? 'focus:bg-lime-800 focus:border focus:border-slate-800' : ''} text-white text-2xl transition ease-in-out hover:bg-lime-800 border border-slate-800 rounded-md px-1 py-1`}><BsList /></button>
 
 
