@@ -25,7 +25,7 @@ export default function Home() {
           <motion.div
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ type: "spring", stiffness: 15 }}
+            transition={{ type: "spring", stiffness: 30 }}
           >
             {/* Header */}
             <Header />
@@ -34,7 +34,7 @@ export default function Home() {
           <motion.div
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.3, type: "spring", stiffness: 15 }}
+            transition={{ delay: 0.3, type: "spring", stiffness: 30 }}
           >
             {/* About */}
             <About />

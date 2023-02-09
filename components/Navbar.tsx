@@ -9,6 +9,7 @@ const Header = (props: Props) => {
     const [isOpen, setIsOpen] = useState(false)
     const [isFocused, setIsFocused] = useState(false)
     const ref = useRef(null)
+    const closeRef = useRef(null)
 
     const openMenu = () => {
         setIsOpen(!isOpen)
@@ -25,6 +26,16 @@ const Header = (props: Props) => {
                     setIsOpen(isOpen)
                 }
             }
+
+            function isClicked(event: any) {
+                if (event.srcElement.className == 'block link') {
+                    setIsFocused(isFocused)
+                    setIsOpen(isOpen)
+                }
+            }
+
+            document.addEventListener("click", isClicked)
+
             // Adding click event listener
             document.addEventListener("click", handleOutsideClick);
             return () => document.removeEventListener("click", handleOutsideClick);
@@ -54,16 +65,16 @@ const Header = (props: Props) => {
 
                 <div id='menu' className={` ${isOpen ? 'block' : 'hidden'} absolute list-none md:hidden bg-[rgb(51,71,23)] flex-col inset-y-0 right-10 transition ease-in top-14 h-44 w-48 rounded-lg border border-lime-700 cursor-pointer`}>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline rounded-lg'>
-                        <Link href="/"><span className='block' >About</span></Link>
+                        <Link href="/"><span className='block link' id='1' >About</span></Link>
                     </li>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline w-full'>
-                        <Link href="/projects"><span className='block' >Projects</span></Link>
+                        <Link href="/projects"><span className='block link' >Projects</span></Link>
                     </li>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline w-full'>
-                        <Link href="https://drive.google.com/file/d/1oZbJY3RkmRL2TR0eT74f_tpDSyJgFIUz/preview" target="_blank" rel="noreferrer"><span className='block' >CV</span></Link>
+                        <Link href="https://drive.google.com/file/d/1oZbJY3RkmRL2TR0eT74f_tpDSyJgFIUz/preview" target="_blank" rel="noreferrer"><span className='block link' >CV</span></Link>
                     </li>
                     <li className='px-5 py-2.5 transition ease-in hover:bg-lime-800 hover:underline w-full rounded-lg'>
-                        <Link href="https://github.com/cjgamos" target="_blank" rel="noreferrer"><span className='block' ><BsGithub className='inline-block' /> Github</span></Link>
+                        <Link href="https://github.com/cjgamos" target="_blank" rel="noreferrer"><span className='block link' ><BsGithub className='inline-block' /> Github</span></Link>
                     </li>
                 </div>
             </div>
