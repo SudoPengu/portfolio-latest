@@ -12,7 +12,7 @@ function Body({ }: Props) {
         words: [
             "Hi I'm C.J",
             "An indie developer based in Philippines",
-            "<I Love Coding/>",
+            "<I Love Coding />",
             "I-Like-Coffe-Too"
         ],
         loop: true,
