@@ -4,6 +4,8 @@ import Header from '@/components/Header'
 import About from '@/components/About'
 import Footer from '@/components/Footer'
 
+import { motion } from "framer-motion"
+
 
 export default function Home() {
   return (
@@ -15,16 +17,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* Navbar */}
-        <Navbar />
+
 
         {/* Body */}
         <div className='sm:w-[35rem] md:w-[38rem] lg:w-[40rem] m-auto'>
-          {/* Header */}
-          <Header />
 
-          {/* About */}
-          <About />
+          <motion.div
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ type: "spring", stiffness: 15 }}
+          >
+            {/* Header */}
+            <Header />
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.3, type: "spring", stiffness: 15 }}
+          >
+            {/* About */}
+            <About />
+          </motion.div>
+
 
           {/* Footer */}
           <Footer />

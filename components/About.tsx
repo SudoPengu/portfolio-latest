@@ -22,7 +22,7 @@ function About({ }: Props) {
 
             {/* About */}
             <div className='py-2'>
-                <h1 className='text-white text-xl underline underline-offset-2 font-bold'>About</h1>
+                <h1 className='text-white text-xl underline underline-offset-4 decoration-lime-600 decoration-2 font-bold'>About</h1>
                 <h1 className='text-white py-2 text-justify indent-5'>A self-motivated student seeking an opportunity to improve and develop his critical, logical, and analytical skills. My name is <span className='text-lime-600'>Carl Justin Gamos</span>, but you can call me <span className='text-lime-600'>C.J</span>. Has a knack for tinkering stuff and solving real-life problems with code. Created a web-based application that uses Machine Learning and Deep learning for recognizing Plant Disease called <span className='text-lime-600'>Cropture</span>. When i am not coding i play my instruments like Guitar or Piano.</h1>
             </div>
 
@@ -33,7 +33,7 @@ function About({ }: Props) {
 
             {/* Bio */}
             <div className='py-2'>
-                <h1 className='text-white text-xl underline pb-2 underline-offset-2 font-bold'>Bio</h1>
+                <h1 className='text-white text-xl underline pb-2 underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Bio</h1>
                 <div className='text-white inline-flex'>
                     <span className='font-bold pr-3'>2000</span>Born in Pampanga, Philippines.
                 </div>
@@ -47,7 +47,7 @@ function About({ }: Props) {
 
             {/* Skills */}
             <div className='py-10'>
-                <h1 className='text-white text-xl underline pb-2 underline-offset-2 font-bold'>Skills</h1>
+                <h1 className='text-white text-xl underline pb-2 underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Skills</h1>
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-5 justify-items-center'>
                     <Image src={Html} alt={"Htm.webpl"} width={50} />
                     <Image src={Css} alt={"CSS.webp"} width={60} />
@@ -62,13 +62,13 @@ function About({ }: Props) {
 
             {/* Interest */}
             <div className='py-2'>
-                <h1 className='text-white text-xl underline underline-offset-2 font-bold'>Interest</h1>
+                <h1 className='text-white text-xl underline underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Interest</h1>
                 <h1 className='text-white py-2 text-justify indent-5'><span className='text-lime-600'>Pixel Arts</span>, Music, Playing Instruments(Drums, Piano, Guitar, Bass), <span className='text-lime-600'>Programming</span>, and <span className='text-lime-600'>Hacking</span></h1>
             </div>
 
             {/* Socials */}
             <div className='py-2'>
-                <h1 className='text-white text-xl underline underline-offset-2 font-bold'>Socials</h1>
+                <h1 className='text-white text-xl underline underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Socials</h1>
                 <div className='grid grid-cols-4 gap-4 justify-items-center py-9'>
                     <a className='text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://twitter.com/home"><BsTwitter /></a>
                     <a className='text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://github.com/cjgamos"><BsGithub /></a>

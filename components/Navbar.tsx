@@ -54,16 +54,16 @@ const Header = (props: Props) => {
 
                 <div id='menu' className={` ${isOpen ? 'block' : 'hidden'} absolute list-none sm:hidden bg-[rgb(51,71,23)] flex-col inset-y-0 right-10 transition ease-in top-14 h-44 w-48 rounded-lg border border-lime-700 cursor-pointer`}>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline rounded-lg'>
-                        <a className='block' href="/">About</a>
+                        <Link href="/"><span className='block' >About</span></Link>
                     </li>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline w-full'>
-                        <a className='block' href="/projects">Projects</a>
+                        <Link href="/projects"><span className='block' >Projects</span></Link>
                     </li>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline w-full'>
-                        <a className='block' href="https://drive.google.com/file/d/1oZbJY3RkmRL2TR0eT74f_tpDSyJgFIUz/preview">CV</a>
+                        <Link href="https://drive.google.com/file/d/1oZbJY3RkmRL2TR0eT74f_tpDSyJgFIUz/preview" target="_blank" rel="noreferrer"><span className='block' >CV</span></Link>
                     </li>
                     <li className='px-5 py-2.5 transition ease-in hover:bg-lime-800 hover:underline w-full rounded-lg'>
-                        <a className='block' href="https://github.com/cjgamos" target="_blank" rel="noreferrer"><BsGithub className='inline-block' /> Github</a>
+                        <Link href="https://github.com/cjgamos" target="_blank" rel="noreferrer"><span className='block' ><BsGithub className='inline-block' /> Github</span></Link>
                     </li>
                 </div>
             </div>
