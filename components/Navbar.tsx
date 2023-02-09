@@ -39,7 +39,7 @@ const Header = (props: Props) => {
                 <a href=""><h1>CJ<span className='text-lime-600'>G</span></h1></a>
             </div>
             <div className='hidden sm:block space-x-8'>
-                <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"/about"}>About</Link>
+                <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"/"}>About</Link>
                 <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"/projects"}>Projects</Link>
                 <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"https://drive.google.com/file/d/1oZbJY3RkmRL2TR0eT74f_tpDSyJgFIUz/preview"} target="_blank" rel="noreferrer">CV</Link>
                 <button className='transition ease-in-out hover:text-lime-500 hover:underline'><a href="https://github.com/cjgamos" target="_blank" rel="noreferrer"><BsGithub className='inline-block ' /> Github</a></button>
@@ -54,7 +54,7 @@ const Header = (props: Props) => {
 
                 <div id='menu' className={` ${isOpen ? 'block' : 'hidden'} absolute list-none sm:hidden bg-[rgb(51,71,23)] flex-col inset-y-0 right-10 transition ease-in top-14 h-44 w-48 rounded-lg border border-lime-700 cursor-pointer`}>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline rounded-lg'>
-                        <a className='block' href="/about">About</a>
+                        <a className='block' href="/">About</a>
                     </li>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline w-full'>
                         <a className='block' href="/projects">Projects</a>
