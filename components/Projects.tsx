@@ -5,7 +5,6 @@ import Link from 'next/link'
 import Cropture from "@/Images/projects-images/cropture/1.png"
 import ServiceSystem from "@/Images/projects-images/dhvsu-system-service/1.png"
 import AmanungSisuan from "@/Images/projects-images/amanung-sisuan/1.png"
-import OldPortfolio from "@/Images/projects-images/portfolio-old/1.png"
 
 type Props = {}
 
@@ -32,7 +31,7 @@ function Projects({ }: Props) {
                 </Link>
                 <Link className='py-5 md:px-5' href={"/projects/underconstruction"}>
                     <div className='text-center'>
-                        <Image className='rounded-lg w-full md:h-32' src={OldPortfolio} alt={"Cropture Image"} />
+                        <Image className='rounded-lg w-full md:h-32' src={ServiceSystem} alt={"Cropture Image"} />
                         <h1 className='text-xl'>Portfolio Website</h1>
                         <span className='text-sm'>My Old Portfolio Website</span>
                     </div>
