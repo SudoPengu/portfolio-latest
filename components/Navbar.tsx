@@ -52,7 +52,7 @@ const Header = (props: Props) => {
             <div className='hidden md:block space-x-8'>
                 <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"/"}>About</Link>
                 <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"/projects"}>Projects</Link>
-                <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"https://drive.google.com/file/d/1oZbJY3RkmRL2TR0eT74f_tpDSyJgFIUz/preview"} target="_blank" rel="noreferrer">CV</Link>
+                <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"https://drive.google.com/file/d/1oNWHQDalIMQGwZfqm_w15kNl0ts8PPJr/preview"} target="_blank" rel="noreferrer">CV</Link>
                 <button className='transition ease-in-out hover:text-lime-500 hover:underline'><a href="https://github.com/cjgamos" target="_blank" rel="noreferrer"><BsGithub className='inline-block ' /> Github</a></button>
                 {/* <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"https://github.com/cjgamos"} target="_blank" rel="noreferrer">Github</Link> */}
             </div>
@@ -71,7 +71,7 @@ const Header = (props: Props) => {
                         <Link href="/projects"><span className='block link' >Projects</span></Link>
                     </li>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline w-full'>
-                        <Link href="https://drive.google.com/file/d/1oZbJY3RkmRL2TR0eT74f_tpDSyJgFIUz/preview" target="_blank" rel="noreferrer"><span className='block link' >CV</span></Link>
+                        <Link href="https://drive.google.com/file/d/1oNWHQDalIMQGwZfqm_w15kNl0ts8PPJr/preview" target="_blank" rel="noreferrer"><span className='block link' >CV</span></Link>
                     </li>
                     <li className='px-5 py-2.5 transition ease-in hover:bg-lime-800 hover:underline w-full rounded-lg'>
                         <Link href="https://github.com/cjgamos" target="_blank" rel="noreferrer"><span className='block link' ><BsGithub className='inline-block' /> Github</span></Link>

@@ -27,7 +27,7 @@ function Projects({ }: Props) {
                     <div className='text-center'>
                         <Image className='rounded-lg w-full md:h-32' src={ServiceSystem} alt={"Cropture Image"} />
                         <h1 className='text-xl'>DHVSU Service System</h1>
-                        <span className='text-sm'>A CRUB application for Don Honorio Venturia State University Project</span>
+                        <span className='text-sm'>A CRUD application for Don Honorio Venturia State University Project</span>
                     </div>
                 </Link>
                 <Link className='py-5 md:px-5' href={"/projects/underconstruction"}>

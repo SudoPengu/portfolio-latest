@@ -10,7 +10,7 @@ function Body({ }: Props) {
 
     const [text, count] = useTypewriter({
         words: [
-            "Hi I'm C.J",
+            "Hello World!, I am C.J",
             "An indie developer based in Philippines",
             "<I Love Coding />",
             "I-Like-Coffe-Too"
