@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Cropture from "@/Images/projects-images/cropture/1.png"
 import ServiceSystem from "@/Images/projects-images/dhvsu-system-service/1.png"
 import AmanungSisuan from "@/Images/projects-images/amanung-sisuan/1.png"
-import PortfolioOld from "@/Images/projects-images/portfolio-old/1.png"
+import PortfolioOld from "@/Images/projects-images/portfolio-old/oldportfolio.png"
 
 type Props = {}
 
