@@ -22,6 +22,7 @@ function Projects({ }: Props) {
                         <span className='text-sm'>A Web-based application that classifies crop diseases</span>
                     </div>
                 </Link>
+
                 <Link className='py-5 md:px-5' href={"/projects/underconstruction"}>
                     <div className='text-center'>
                         <Image className='rounded-lg w-full md:h-32' src={ServiceSystem} alt={"Cropture Image"} />
