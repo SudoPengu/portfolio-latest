@@ -28,7 +28,7 @@ const Header = (props: Props) => {
             }
 
             function isClicked(event: any) {
-                if (event.srcElement.className == 'block link') {
+                if (event.target.classList[1] == 'link') {
                     setIsFocused(isFocused)
                     setIsOpen(isOpen)
                 }
@@ -45,9 +45,9 @@ const Header = (props: Props) => {
     useOutsideAlerter(ref);
 
     return (
-        <div className='sticky top-0 backdrop-blur-sm bg-[transparent] text-[#FFFF] py-4 px-10 h-14 flex justify-between md:justify-center'>
+        <div className='sticky top-0 z-50 backdrop-blur-sm bg-[#212022]/30 text-[#FFFF] py-4 px-10 h-14 flex justify-between md:justify-center'>
             <div className='flex font-bold text-lg w-2/5'>
-                <a href=""><h1>CJ<span className='text-lime-600'>G</span></h1></a>
+                <a href="/"><h1>CJ<span className='text-lime-600'>G</span></h1></a>
             </div>
             <div className='hidden md:block space-x-8'>
                 <Link className=" transition ease-in-out hover:text-lime-500 hover:underline" href={"/"}>About</Link>
@@ -65,7 +65,7 @@ const Header = (props: Props) => {
 
                 <div id='menu' className={` ${isOpen ? 'block' : 'hidden'} absolute list-none md:hidden bg-[rgb(51,71,23)] flex-col inset-y-0 right-10 transition ease-in top-14 h-44 w-48 rounded-lg border border-lime-700 cursor-pointer`}>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline rounded-lg'>
-                        <Link href="/"><span className='block link' id='1' >About</span></Link>
+                        <Link href="/"><span className='block link' >About</span></Link>
                     </li>
                     <li className='px-5 py-2 transition ease-in hover:bg-lime-800 hover:underline w-full'>
                         <Link href="/projects"><span className='block link' >Projects</span></Link>

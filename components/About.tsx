@@ -3,14 +3,14 @@ import { AiOutlineRight } from "react-icons/ai"
 import Image from 'next/image'
 
 // Skills
-import Html from '@/Images/skills/Html.webp'
-import Css from '@/Images/skills/css.webp'
-import Javascript from '@/Images/skills/javascript.webp'
-import Nextjs from '@/Images/skills/nextjs.webp'
-import Python from '@/Images/skills/python.webp'
-import Tailwind from '@/Images/skills/tailwind.webp'
-import Reactjs from '@/Images/skills/Reactjs.webp'
-import Bootstrap from '@/Images/skills/bootstrap.webp'
+import Html from '@/Images/skills-image/Html.webp'
+import Css from '@/Images/skills-image/css.webp'
+import Javascript from '@/Images/skills-image/javascript.webp'
+import Nextjs from '@/Images/skills-image/nextjs.webp'
+import Python from '@/Images/skills-image/python.webp'
+import Tailwind from '@/Images/skills-image/tailwind.webp'
+import Reactjs from '@/Images/skills-image/Reactjs.webp'
+import Bootstrap from '@/Images/skills-image/bootstrap.webp'
 
 import { BsTwitter, BsLinkedin, BsGithub, BsInstagram } from 'react-icons/bs'
 
@@ -18,12 +18,12 @@ type Props = {}
 
 function About({ }: Props) {
     return (
-        <div className='px-5'>
+        <div className='px-5 z-10'>
 
             {/* About */}
             <div className='py-2'>
                 <h1 className='text-white text-xl underline underline-offset-4 decoration-lime-600 decoration-2 font-bold'>About</h1>
-                <h1 className='text-white py-2 text-justify indent-5'>A self-motivated student seeking an opportunity to improve and develop his critical, logical, and analytical skills. My name is <span className='text-lime-600'>Carl Justin Gamos</span>, but you can call me <span className='text-lime-600'>C.J</span>. Has a knack for tinkering stuff and solving real-life problems with code. Created a web-based application that uses Machine Learning and Deep learning for recognizing Plant Disease called <span className='text-lime-600'>Cropture</span>. When i am not coding i play my instruments like Guitar or Piano.</h1>
+                <h1 className='text-white py-2 text-justify indent-5'>A self-motivated student seeking an opportunity to improve and develop his critical, logical, and analytical skills-image. My name is <span className='text-lime-600'>Carl Justin Gamos</span>, but you can call me <span className='text-lime-600'>C.J</span>. Has a knack for tinkering stuff and solving real-life problems with code. Created a web-based application that uses Machine Learning and Deep learning for recognizing Plant Disease called <span className='text-lime-600'>Cropture</span>. When i am not coding i play my instruments like Guitar or Piano.</h1>
             </div>
 
             {/* CV */}
@@ -45,10 +45,10 @@ function About({ }: Props) {
                 </div>
             </div>
 
-            {/* Skills */}
+            {/* Skills-image */}
             <div className='py-10'>
-                <h1 className='text-white text-xl underline pb-2 underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Skills</h1>
-                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-5 justify-items-center'>
+                <h1 className='text-white text-xl underline pb-2 underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Skills-image</h1>
+                <div className='grid grid-cols-3 lg:grid-cols-4 gap-4 pt-5 justify-items-center'>
                     <Image src={Html} alt={"Htm.webpl"} width={50} />
                     <Image src={Css} alt={"CSS.webp"} width={60} />
                     <Image src={Javascript} alt={"Javascript.webp"} width={60} />
@@ -69,7 +69,7 @@ function About({ }: Props) {
             {/* Socials */}
             <div className='py-2'>
                 <h1 className='text-white text-xl underline underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Socials</h1>
-                <div className='grid grid-cols-4 gap-4 justify-items-center py-9'>
+                <div className='grid grid-cols-2 sm:grid-cols-4 gap-4 justify-items-center py-9'>
                     <a className='text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://twitter.com/home"><BsTwitter /></a>
                     <a className='text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://github.com/cjgamos"><BsGithub /></a>
                     <a className='text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carljustingamos/"><BsLinkedin /></a>
