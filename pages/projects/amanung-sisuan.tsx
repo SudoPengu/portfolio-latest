@@ -11,9 +11,6 @@ import Image2 from "@/Images/projects-images/amanung-sisuan/2.png"
 import Image3 from "@/Images/projects-images/amanung-sisuan/3.png"
 
 
-
-type Props = {}
-
 const underconstruction = ({ isVisible }: any) => {
     return (
         <motion.div
