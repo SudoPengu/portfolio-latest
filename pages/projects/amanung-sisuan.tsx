@@ -7,8 +7,8 @@ import { motion } from 'framer-motion'
 import { AiOutlineRight } from "react-icons/ai"
 
 import Image1 from "@/Images/projects-images/amanung-sisuan/1.png"
-import Image2 from "@/Images/projects-images/amanung-sisuan/2.png"
-import Image3 from "@/Images/projects-images/amanung-sisuan/3.png"
+import Image2 from "@/Images/projects-images/amanung-sisuan/second.png"
+import Image3 from "@/Images/projects-images/amanung-sisuan/third.png"
 
 
 const underconstruction = ({ isVisible }: any) => {

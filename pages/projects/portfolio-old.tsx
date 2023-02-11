@@ -7,8 +7,8 @@ import { motion } from 'framer-motion'
 import { AiOutlineRight } from "react-icons/ai"
 
 import Image1 from "@/Images/projects-images/portfolio-old/oldportfolio.png"
-import Image2 from "@/Images/projects-images/portfolio-old/2.png"
-import Image3 from "@/Images/projects-images/portfolio-old/3.png"
+import Image2 from "@/Images/projects-images/portfolio-old/second.png"
+import Image3 from "@/Images/projects-images/portfolio-old/third.png"
 
 
 
