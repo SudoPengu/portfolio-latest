@@ -21,10 +21,10 @@ const underconstruction = ({ isVisible }: any) => {
             animate={{ y: 0, opacity: 1 }}
             // transition={{ type: "spring", stiffness: 30 }}
             transition={{ ease: "easeInOut", duration: 1 }}
-            className='sm:w-[20rem] md:w-[25rem] w-9/12 m-auto'>
+            className='sm:w-[20rem] md:w-[25rem] w-10/12 m-auto'>
 
             {/* Content */}
-            <div className='text-white py-20'>
+            <div className='text-white py-16'>
                 <Head>
                     <title>Dhvsu Service System - Carl Justin Gamos</title>
                 </Head>
