@@ -45,7 +45,7 @@ const underconstruction = ({ isVisible }: any) => {
                 <div className='py-2'>
                     <h1 className='text-white text-sm py-2 text-justify indent-5'>An application that classifies crop diseases and give details about the disease and solutions on how to prevent and cure them.</h1>
 
-                    <div>
+                    <div className='grid grid-cols-1'>
                         <div className='py-1 inline-flex'>
                             <div className='text-[0.7rem] disabled:opacity-75 text-[#98E4B3] bg-[#323E39] font-bold w-16 h-5 text-center'>PLATFROM</div>
                             <span className='text-sm pl-2'>Windows/macOS/Linux/iOS/Android</span>
