@@ -47,7 +47,7 @@ function About({ }: Props) {
 
             {/* Skills-image */}
             <div className='py-10'>
-                <h1 className='text-black dark:text-white text-xl underline pb-2 underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Skills-image</h1>
+                <h1 className='text-black dark:text-white text-xl underline pb-2 underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Skills</h1>
                 <div className='grid grid-cols-3 lg:grid-cols-4 gap-4 pt-5 justify-items-center'>
                     <Image src={Html} alt={"Htm.webpl"} width={50} />
                     <Image src={Css} alt={"CSS.webp"} width={60} />
@@ -70,7 +70,7 @@ function About({ }: Props) {
             <div className='py-2'>
                 <h1 className='text-black dark:text-white text-xl underline underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Socials</h1>
                 <div className='grid grid-cols-2 sm:grid-cols-4 gap-4 justify-items-center py-9'>
-                    <a className='text-black dark:text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://twitter.com/home"><BsTwitter /></a>
+                    <a className='text-black dark:text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://twitter.com/semickolon_"><BsTwitter /></a>
                     <a className='text-black dark:text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://github.com/cjgamos"><BsGithub /></a>
                     <a className='text-black dark:text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carljustingamos/"><BsLinkedin /></a>
                     <a className='text-black dark:text-white text-3xl hover:text-lime-600 transition ease-in' target="_blank" rel="noreferrer" href="https://www.instagram.com/cjgamos_/"><BsInstagram /></a>
