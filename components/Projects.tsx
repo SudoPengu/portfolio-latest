@@ -11,8 +11,8 @@ type Props = {}
 
 function Projects({ }: Props) {
     return (
-        <div className='text-white px-9'>
-            <h1 className='text-white py-7 text-xl underline underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Projects</h1>
+        <div className='text-black dark:text-white px-9'>
+            <h1 className='text-black dark:text-white py-7 text-xl underline underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Projects</h1>
 
             <div className='grid md:grid-cols-2'>
                 <Link className='py-5 md:px-5' href={"/projects/cropture"}>

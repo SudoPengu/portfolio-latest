@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <div className='bg-[#F0E7DB] dark:bg-[#212022]'>
       {/* Navbar */}
       <Navbar />
 
@@ -18,6 +18,6 @@ export default function App({ Component, pageProps }: AppProps) {
 
       {/* Footer */}
       <Footer />
-    </>
+    </div>
   )
 }
