@@ -11,7 +11,7 @@ function Body({ }: Props) {
     const [text, count] = useTypewriter({
         words: [
             "print('Hello World!, I am C.J')",
-            "An.indie.Developer.Based.On.Philippines",
+            "An_indie_Developer_Based_On_Philippines",
             "<I Love Coding />",
             "I-Like-Coffe-Too.tsx"
         ],
