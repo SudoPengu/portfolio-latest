@@ -10,10 +10,10 @@ function Body({ }: Props) {
 
     const [text, count] = useTypewriter({
         words: [
-            "Hello World!, I am C.J",
-            "An indie developer based in Philippines",
+            "prin('Hello World!, I am C.J')",
+            "An.indie.Developer.Based.On.Philippines",
             "<I Love Coding />",
-            "I-Like-Coffe-Too"
+            "I-Like-Coffe-Too.tsx"
         ],
         loop: true,
         delaySpeed: 2000,
