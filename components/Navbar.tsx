@@ -17,6 +17,7 @@ const Header = (props: Props) => {
         setIsFocused(!isFocused)
     }
 
+
     // Check if Light or Dark
     useEffect(() => {
         const userTheme = localStorage.getItem('theme')
@@ -24,8 +25,10 @@ const Header = (props: Props) => {
 
         if (userTheme === "dark" || (!userTheme && systemTheme)) {
             document.documentElement.classList.add("dark")
+            setIsDark(true)
         } else {
             document.documentElement.classList.remove("dark")
+            setIsDark(false)
         }
     }, [])
 
