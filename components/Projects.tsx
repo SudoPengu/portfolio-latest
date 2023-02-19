@@ -11,7 +11,7 @@ type Props = {}
 
 function Projects({ }: Props) {
     return (
-        <div className='text-black dark:text-white px-9 md:h-screen h-screen'>
+        <div className='text-black dark:text-white px-9 md:h-screen'>
             <h1 className='text-black dark:text-white py-7 text-xl underline underline-offset-4 decoration-lime-600 decoration-2 font-bold'>Projects</h1>
 
             <div className='grid md:grid-cols-2'>
