@@ -4,6 +4,7 @@ import type { AppProps } from 'next/app'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
+
 // Framer Motion
 import { motion } from 'framer-motion'
 
