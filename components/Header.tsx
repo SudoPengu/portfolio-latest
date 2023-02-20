@@ -10,8 +10,8 @@ function Body({ }: Props) {
 
     const [text, count] = useTypewriter({
         words: [
-            "print('Hello World!, I am C.J')",
-            "An_indie_Developer_Based_On_Philippines",
+            "Hello World!, I am C.J",
+            "An indie Developer Based On Philippines",
             "<I Love Coding />",
             "I-Like-Coffe-Too.tsx"
         ],
@@ -25,7 +25,7 @@ function Body({ }: Props) {
             {/* Typewrite */}
             <div className='dark:bg-[#313032] bg-[#F4EFE9] dark:text-white text-black w-11/12 md:w-[35rem] sm:w-[33rem] lg:w-[37rem] m-auto py-5 px-5 mt-5 text-center rounded-md'>
                 <h1>
-                    <span>{text}</span>
+                    <span className='w-11/12'>{text}</span>
                     <Cursor cursorColor='#65A30D' />
                 </h1>
             </div>
