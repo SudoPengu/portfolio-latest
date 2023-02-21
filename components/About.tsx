@@ -23,7 +23,7 @@ function About({ }: Props) {
             {/* About */}
             <div className='py-2'>
                 <h1 className='text-black dark:text-white text-xl underline underline-offset-4 decoration-lime-600 decoration-2 font-bold'>About</h1>
-                <h1 className='text-black dark:text-white py-2 text-justify indent-5'>A self-motivated student seeking an opportunity to improve and develop his critical, logical, and analytical skills-image. My name is <span className='text-lime-600'>Carl Justin Gamos</span>, but you can call me <span className='text-lime-600'>C.J</span>. Has a knack for tinkering stuff and solving real-life problems with code. Created a web-based application that uses Machine Learning and Deep learning for recognizing Plant Disease called <span className='text-lime-600'>Cropture</span>. When i am not coding i play my instruments like Guitar or Piano.</h1>
+                <h1 className='text-black dark:text-white py-2 text-justify indent-5'>A self-motivated student seeking an opportunity to improve and develop his critical, logical, and analytical skills. My name is <span className='text-lime-600'>Carl Justin Gamos</span>, but you can call me <span className='text-lime-600'>C.J</span>. Has a knack for tinkering stuff and solving real-life problems with code. Created a web-based application that uses Machine Learning and Deep learning for recognizing Plant Disease called <span className='text-lime-600'>Cropture</span>. When i am not coding i play my instruments like Guitar or Piano.</h1>
             </div>
 
             {/* CV */}
