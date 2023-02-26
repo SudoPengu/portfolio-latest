@@ -67,6 +67,7 @@ const underconstruction = ({ isVisible }: any) => {
                     </div>
                 </div>
 
+
                 {/* Project Images */}
                 <div className='py-2 space-y-4'>
                     <Image className='rounded-lg w-full' src={Image1} alt={"Portfolio-Old Image"} />
