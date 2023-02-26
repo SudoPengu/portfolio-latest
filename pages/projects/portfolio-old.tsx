@@ -60,6 +60,10 @@ const underconstruction = ({ isVisible }: any) => {
                             <div className='text-[0.7rem] disabled:opacity-75 dark:text-[#98E4B3] dark:bg-[#323E39] text-[#22553C] bg-[#C6F7D4]  font-bold w-12 h-5 text-center'>GITHUB</div>
                             <a className='text-sm pl-2 text-lime-600 hover:underline' href='https://github.com/cjgamos/cjgamos.github.io' target="_blank" rel="noreferrer">Link</a>
                         </div>
+                        <div className='py-1 inline-flex'>
+                            <div className='text-[0.7rem] disabled:opacity-75 dark:text-[#98E4B3] dark:bg-[#323E39] text-[#22553C] bg-[#C6F7D4]  font-bold w-12 h-5 text-center'>WEBSITE</div>
+                            <a className='text-sm pl-2 text-lime-600 hover:underline' href='https://cjgamos.github.io/' target="_blank" rel="noreferrer">Link</a>
+                        </div>
                     </div>
                 </div>
 
