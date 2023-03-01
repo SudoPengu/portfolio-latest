@@ -36,7 +36,7 @@ function Body({ }: Props) {
                 {/* Name and Sub */}
                 <div className='pt-7 text-black dark:text-white lg:w-[30rem] md:w-[29rem] sm:w-[25rem]'>
                     <h1 className='text-3xl'>Carl Justin <span className='text-lime-600'>Gamos</span></h1>
-                    <h4>Passionate Geek ( Developer / Programmer / Open Source Enthusiast ) </h4>
+                    <h4>Passionate Geek ( Developer / Programmer / Cyber Security Enthusiast ) </h4>
                 </div>
 
                 {/* Image */}

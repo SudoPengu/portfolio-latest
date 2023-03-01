@@ -41,7 +41,7 @@ function About({ }: Props) {
                     <span className='font-bold pr-3'>2019</span> Taking Bachelor's of Science in Computer Science on Don Honorio Venturia State University, Bacolor Pampanga
                 </div>
                 <div className='text-black dark:text-white inline-flex'>
-                    <span className='font-bold pr-3'>pre--</span> Searching for Internship / OJT
+                    <span className='font-bold pr-3'>pre--</span> Currently taking my Internship as System Administrator in ROC.ph
                 </div>
             </div>
 
